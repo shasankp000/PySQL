@@ -1,0 +1,23 @@
+1> Quit command not working inside of mysql prompt. #Fix needed.
+July 15 2021 11:55 PM. Issue has been fixed.
+
+2> Add support for linux #Enhancement.
+August 08 2021 5:26 PM. Enhancement added.
+
+3> Fix possible issues for MariaDB connector(Python). #3 issues fixed.
+    |
+    |
+    ------>Fixed empty cursor set issue for returns in create and use commands. #Fixed
+    |
+    |
+    ------>Add decision based commits on insert and delete commands #Fixed. Configurable through settings file.
+	       |
+           |
+           ----> Add JSON based settings configuration ##Enhancement #Enhancement Added.
+           |
+           |
+           -----> Add android porting (Termux) ##Enhancement 
+     
+    
+4> ##ENHANCEMENT REQUIRED## -------> Add decision based package manager configuration for linux distros. (such as pacman for Arch Linux and yum for CentOS or brew for MacOS) #Pending
+

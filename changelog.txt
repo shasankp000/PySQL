@@ -1,0 +1,19 @@
+PySQL shell release v1.1.3
+July 15 2021 11:57 PM
+>Added a small but useful user manual.
+>Fixed quit command bug inside of mysql prompt.
+
+PySQL shell release v1.1.3rc2
+August 7 2021 06:39 PM
+>Added install support linux debian/any other based x64 systems
+>Added alternative MariaDB installation option(99% success rate)
+>Added decision based MariaDB connectors(C and python) installation
+
+August 8 2021 12:07 AM
+>Build successful, all commands working properly. #FAIL 5:44 PM
+>NEED testing on windows and compilation of sh and exe files separately. #FAIL 5:44 PM
+
+August 10 2021 10:23 PM
+>Added json settings configuration file. File will be auto generated on first run and any subsequent changes in the settings file will be reflected in PySQL.
+>Added decision based autocommit for mysql/mariadb. Configurable in settings.
+>Added commit and rollback commands.
