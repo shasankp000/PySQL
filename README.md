@@ -41,8 +41,10 @@ This is actually a python interface to mysql/mariadb based on the CMD library. I
  
  >Json config file is auto-generated on first-time run.
 
- >After installation of mariadb on termux, just run mariadb and do CREATE USER "username"@"localhost" IDENTIFIED BY "PASSWORD"; (works on mysql as well, all            platforms)
+ >After installation of mariadb on termux, just run mariadb and do CREATE USER "username"@"localhost" IDENTIFIED BY "PASSWORD"; (on a different session, by swiping 
+   left and tapping on new session) (works on mysql as well, all platforms)
 
  >Commands are available in the embedded user manual as well
 
+ >For more info on changing sessions in Termux and general usage go to https://wiki.termux.com/wiki/User_Interface
 
