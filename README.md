@@ -12,6 +12,7 @@ This is actually a python interface to mysql/mariadb based on the CMD library. I
  
  >Linux side has more features with decision based distro installation for both mariadb and mysql
  
+ >Added install support for Android(Termux). This feature is still experimental.
 
 # Commands
  >start : This will create the connection using the mysql/mariadb connector(depends on choice) and ask for the username, password, host etc. The connection is       
