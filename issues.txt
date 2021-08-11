@@ -21,3 +21,4 @@ August 08 2021 5:26 PM. Enhancement added.
     
 4> ##ENHANCEMENT REQUIRED## -------> Add decision based package manager configuration for linux distros. (such as pacman for Arch Linux and yum for CentOS or brew for MacOS) #Pending
 
+5> ##NOTE## requirements.txt does not install mariadb connector by defualt as its installation varies on windows and linux. Use install_mariadb from within PySQL shell.
