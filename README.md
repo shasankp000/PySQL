@@ -47,4 +47,8 @@ This is actually a python interface to mysql/mariadb based on the CMD library. I
  >Commands are available in the embedded user manual as well
 
  >For more info on changing sessions in Termux and general usage go to https://wiki.termux.com/wiki/User_Interface
+ 
+ >Termux is downloadable via https://www.f-droid.org/ . Download the F-droid app and then search termux. Install it from there.
+ 
+ >The Google Play version of Termux doesn't receive updates any more. Consider donating to the Termux Project as well(your choice!).
 
