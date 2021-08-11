@@ -27,4 +27,11 @@ This is actually a python interface to mysql/mariadb based on the CMD library. I
 
  >exit : Exits the program(usable in the mysql/mariadb prompt as well)
 
+
+
+# Installation 
+ >Just do pip install -r requirements.txt or python3 -m pip install -r requirements.txt(on linux)
+ 
+ >Then run pysql_shell.py
+
  
