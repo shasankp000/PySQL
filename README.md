@@ -3,7 +3,12 @@ This is actually a python interface to mysql/mariadb. Installation options for m
 
 # Features
  >Auto OS detection based installation options.
- <Decision based commits, configurable through settings file.>
- >Good way to practice SQL without going through the complexities of opening the clients in windows/linux. Just requires a one time setup of a non root       |         account with admin priveleges.
- >Linux side has more features with decision based distro installation for both mariadb and mysql
+ 
+ Decision based commits, configurable through settings file.
+ 
+ 
+ Good way to practice SQL without going through the complexities of opening the clients in windows/linux. Just requires a one time setup of a non root       |         account with admin priveleges.
+ 
+ 
+ Linux side has more features with decision based distro installation for both mariadb and mysql
  
