@@ -34,4 +34,7 @@ This is actually a python interface to mysql/mariadb based on the CMD library. I
  
  >Then run pysql_shell.py
 
+
+# Note to all users 
+ >Requirements.txt does not install mariadb connector by defualt as its installation varies on windows and linux. Use install_mariadb from within PySQL shell.
  
