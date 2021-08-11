@@ -43,6 +43,6 @@ This is actually a python interface to mysql/mariadb based on the CMD library. I
 
  >After installation of mariadb on termux, just run mariadb and do CREATE USER "username"@"localhost" IDENTIFIED BY "PASSWORD"; (works on mysql as well, all            platforms)
 
- >Also GRANT ALL PRIVILEGES ON *.* TO 'user1'@localhost IDENTIFIED BY 'password1'; as well (works on mysql as well, all platforms)
+ >Also "GRANT ALL PRIVILEGES ON *.* TO 'user1'@localhost IDENTIFIED BY 'password1';' as well (works on mysql as well, all platforms)
 
 
