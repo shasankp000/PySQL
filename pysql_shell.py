@@ -481,7 +481,7 @@ class PySQL(Cmd):
                 os.system("sudo apt-get install mariadb-server")
                 print("MariaDB installation successful.")
 
-    def install_mariadb_termux(self,inp):
+    def do_install_mariadb_termux(self,inp):
         '''Mysql installation support for Android'''
         print("Updating packages.....")
         print("apt update && apt upgrade -y ")
