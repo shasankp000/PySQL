@@ -39,5 +39,10 @@ This is actually a python interface to mysql/mariadb based on the CMD library. I
 # Note to all users 
  >Requirements.txt does not install mariadb connector by defualt as its installation varies on windows and linux. Use install_mariadb from within PySQL shell.
  
- >Json config file is auto-generated on first-time run
- 
+ >Json config file is auto-generated on first-time run.
+
+ >After installation of mariadb on termux, just run mariadb and do CREATE USER "username"@"localhost" IDENTIFIED BY "PASSWORD"; (works on mysql as well, all            platforms)
+
+ >Also GRANT ALL PRIVILEGES ON *.* TO 'user1'@localhost IDENTIFIED BY 'password1'; as well (works on mysql as well, all platforms)
+
+
