@@ -35,6 +35,23 @@ This is actually a python interface to mysql/mariadb based on the CMD library. I
  
  >Then run pysql_shell.py
 
+# On Termux
+ > apt update && apt upgrade && pkg install git python3
+ 
+ Once done, do these :
+ > git clone https://github.com/shasankp000/PySQL
+ 
+ >cd PySQL && pip3 install -r requirements.txt --upgrade pip
+ 
+ Lastly,
+ 
+ >python3 pysql_shell.py (to run it do this)
+
+ Inside PySQL, use the install_mariadb_termux command
+ 
+ If you are newcomer to Termux and Linux systems, please learn a quick lesson on changing directories and basic essentials.
+ More info on https://wiki.termux.com/ about Termux.
+
 
 # Note to all users 
  >Requirements.txt does not install mariadb connector by defualt as its installation varies on windows and linux. Use install_mariadb from within PySQL shell.
