@@ -1,5 +1,5 @@
 # PySQL 1.1.4
-This is actually a python interface to mysql/mariadb based on the CMD library. Installation options for mysql and mariadb on both windows and linux. Comes along with json config where autocommit can be configured to be true or false. Also comes with an embedded user manual. This project comes under the FOSS(Free and open source software) category.
+This is actually a python interface to mysql/mariadb based on the CMD library. It is intended to be a user-friendly interface to mysql and mariadb. Installation options for mysql and mariadb on both windows and linux. Comes along with json config where autocommit can be configured to be true or false. Also comes with an embedded user manual. This project comes under the FOSS(Free and open source software) category.
 
 # Features
  >Auto OS detection based installation options.
