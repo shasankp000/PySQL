@@ -4,7 +4,7 @@ This is actually a python interface to mysql/mariadb based on the CMD library. I
 # "AUTOMATE THE BORING STUFF"
 
 # Features
- >Auto OS detection based installation options.
+ >Makes life a lot more easier with auto OS detection based mysql/mariadb installation options.
  
  >Decision based commits, configurable through settings file.
  
