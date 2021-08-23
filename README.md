@@ -1,6 +1,8 @@
 # PySQL 1.1.4
 This is actually a python interface to mysql/mariadb based on the CMD library. It is intended to be a user-friendly interface to mysql and mariadb. Installation options for mysql and mariadb on both windows and linux. Comes along with json config where autocommit can be configured to be true or false. Also comes with an embedded user manual. This project comes under the FOSS(Free and open source software) category.
 
+# "AUTOMATE THE BORING STUFF"
+
 # Features
  >Auto OS detection based installation options.
  
@@ -69,3 +71,7 @@ This is actually a python interface to mysql/mariadb based on the CMD library. I
  
  >The Google Play version of Termux doesn't receive updates any more. Consider donating to the Termux Project as well(your choice!).
 
+# In case, you were wondering :
+
+ >I am well aware that another project of the same name exists, however, that PySQL is a framework for sql, it does exactly the same job as this PySQL. However that    being said, this PySQL is an automation of all those manual tasks in the other framework, and deployment is much easier. Only the MySQL/Mariadb service requires    to be started, then PySQL will handle the rest. I am not saying that the original PySQL is not good, i only created this project initially with the intention of    helping my friends, who didn't have a computer at their home, I had no idea that another project with the same name existed. However now I do not intend to      
+ > change the name of this project. It's upto you guys, which PySQL you wanna use. 
