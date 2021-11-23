@@ -12,6 +12,8 @@ import subprocess
 import requests
 import urllib
 import json
+from termcolor import colored
+import random
 
 usr_accnt = getpass.getuser()
 mysql_def_url = "https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.25.0.msi"
@@ -57,10 +59,18 @@ os_type = data["sys_info"][0]["OS"]
 py_ver = data["sys_info"][0]["Python_Version"]
 mac_type = data["sys_info"][0]["Machine_Type"]
 
+
+color_list = ["red", "blue", "green", "yellow", "magenta", "cyan"]
+font_list = ["straight", "standard", "banner3-D", "isometric1",  "isometric2", "isometric3", "isometric4", "sketch_s"]
+
 class PySQL(Cmd):
+    global color_list
+    global font_list
+
+
     prompt = "PySQL>"
-    f = Figlet(font="straight")
-    print(f.renderText("PySQL"))
+    f = Figlet(font=f"{font_list[random.randint(0,8)-1]}")
+    print(colored(f.renderText("PySQL"), f"{color_list[random.randint(0, 5)]}"))
     intro = f"PySQL 1.1.4 [{ctime()}].Type ? or help for help on commands."
     print(f"Detected Python version : {py_ver}")
     print(f"OS: {os_type} on {mac_type}")
@@ -296,7 +306,7 @@ class PySQL(Cmd):
 
     def do_version(self,inp):
         '''displays shell version'''
-        print("PySQL shell v1.1.2")
+        print("PySQL shell v1.1.4")
         print("Python version used at time of writing script : Python 3.9.2 AMD64 on Linux")
         print("MySQL version used at time of writing scirpt : MySQL server 8.0")
 
@@ -403,8 +413,8 @@ class PySQL(Cmd):
 
     def do_banner(self,inp):
         '''displays the banner'''
-        q = Figlet(font="straight")
-        print(q.renderText("PySQL"))
+        q = Figlet(font=f"{font_list[random.randint(0,8)-1]}")
+        print(colored(q.renderText("PySQL"), f"{color_list[random.randint(0, 5)]}"))
 
     def do_get_sys_info(self,inp):
         '''gets system info and python version'''

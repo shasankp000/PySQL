@@ -13,7 +13,12 @@ August 8 2021 12:07 AM
 >Build successful, all commands working properly. #FAIL 5:44 PM
 >NEED testing on windows and compilation of sh and exe files separately. #FAIL 5:44 PM
 
-August 10 2021 10:23 PM
+August 11 2021 10:20 PM
 >Added json settings configuration file. File will be auto generated on first run and any subsequent changes in the settings file will be reflected in PySQL.
 >Added decision based autocommit for mysql/mariadb. Configurable in settings.
 >Added commit and rollback commands.
+>Added install support for Android(Termux). # This feature is still experimental
+
+November 23 2021 11:04 PM
+
+>Added random banners with random font and color styles.

@@ -2,3 +2,4 @@ pyfiglet
 mysql_connector_python
 tqdm
 wget
+termcolor
